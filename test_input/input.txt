@@ -1,0 +1,35 @@
+INPUT 3
+
+LAYER DENSE 4 relu
+WEIGHTS:
+  0.10  0.20  0.30
+ -0.10  0.00  0.05
+  0.30 -0.20  0.10
+  0.00  0.50 -0.40
+BIASES:
+  0.0 0.1 0.0 0.0
+END
+
+LAYER DENSE 2 softmax
+WEIGHTS:
+  0.20 -0.30  0.40  0.10
+ -0.50  0.60 -0.10  0.20
+BIASES:
+  0.0 0.0
+END
+
+LAYER DENSE 3 tanh
+WEIGHTS:
+  0.20 -0.30
+ -0.50  0.60
+  0.10  0.70 
+BIASES:
+  0.0 0.0
+END
+
+
+=== DATA ===
+# po jednym wektorze na wiersz (tu: INPUT 3 wartości)
+0.5 0.6 0.7
+1.0 0.0 0.0
+-0.3 0.8 0.2

@@ -1,0 +1,54 @@
+﻿/build/
+CMakeLists.txt.user
+
+# ---- Qt Creator ----
+*.user
+*.user.*
+*.autosave
+
+# ---- Build directories ----
+build-*/
+build/
+/build
+bin/
+debug/
+release/
+out/
+
+# ---- Compiled objects ----
+*.o
+*.obj
+*.lo
+*.la
+*.ilf
+*.idb
+*.pdb
+
+# ---- Executables ----
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.a
+*.lib
+
+# ---- Qt-specific ----
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# ---- CMake ----
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# ---- Misc ----
+*.log
+*.tmp
+*.bak
+*.swp
+
